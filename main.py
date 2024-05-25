@@ -4,7 +4,7 @@ class Piece:
         self.position = position
 
     def move(self, new_position):
-        print(f"Фігура {self.__class__.__name__}  рухається з {self.position} на {new_position}")
+        print(f"Piace {self.__class__.__name__}  {self.color}  move {self.position} на {new_position}")
         self.position = new_position
 
 
